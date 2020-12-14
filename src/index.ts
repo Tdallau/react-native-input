@@ -1,0 +1,1 @@
+export const temp: string = "Dit is een test";

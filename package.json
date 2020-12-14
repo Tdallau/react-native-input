@@ -1,0 +1,19 @@
+{
+  "name": "react-native-input",
+  "version": "1.0.0",
+  "description": "A cross-platform Input component for React Native",
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tdallau/react-native-input.git"
+  },
+  "keywords": [
+    "react-native",
+    "Input"
+  ],
+  "author": "Tdallau <tim@dallau.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
