@@ -1,11 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { temp } from 'react-native-input';
+import { Input } from 'react-native-input';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>{temp}</Text>
+      <Input
+        type="DropDown"
+        baseValue={[{value: 'string', label: 'dit is een test'}, {value: 'string2', label: 'dit is een test'}]}
+        getValue={(value) => alert(value)}
+      />
     </View>
   );
 }

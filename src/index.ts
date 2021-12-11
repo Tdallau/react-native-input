@@ -1,1 +1,5 @@
-export const temp: string = "Dit is een test";
+import Input from './Input';
+
+export {
+  Input
+}
